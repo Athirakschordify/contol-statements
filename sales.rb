@@ -22,8 +22,6 @@ s = [
 ]
 result={}
 
-
-
 s.each do |i|
     result[:name] = i['n']
     name=i['n']
