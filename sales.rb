@@ -11,13 +11,13 @@
 
 s = [
 
-  { "n"=> "Alice", "s1"=> 1000,"s2"=>300,"c"=> 20},
+  { "n"=> "Alice", "s1"=> 1000.0,"s2"=>300.0,"c"=> 20},
 
-  { "n"=> "Bob", "s1"=> 400,"s2"=>400,"c"=>  30},
+  { "n"=> "Bob", "s1"=> 400.0,"s2"=>400.0,"c"=>  30},
 
-  { "n"=> "Charlie", "s1"=> 500,"s2"=>500,"c"=> 10},
+  { "n"=> "Charlie", "s1"=> 500.0,"s2"=>500.0,"c"=> 10},
 
-  { "n"=> "Dave", "s1"=> 800,"s2"=>500,"c"=> 30 },
+  { "n"=> "Dave", "s1"=> 800.0,"s2"=>500.0,"c"=> 30 },
 
 ]
 result={}
@@ -40,7 +40,7 @@ s.each do |i|
     end   
 
 
-    puts result
+    puts "name= #{result[:name]}  total_sales= #{result[:total_sales]}   sales_percentage= #{result[:sales_percentage]}  target_mer_key= #{result[:target_met_key]}"
     
 end  
 
